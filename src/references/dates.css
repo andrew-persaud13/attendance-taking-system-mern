@@ -1,0 +1,15 @@
+.legend-late {
+  background-color: magenta;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.legend-absent {
+  background-color: red;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}

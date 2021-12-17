@@ -1,0 +1,9 @@
+.sec-link {
+  text-decoration: none !important;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.active {
+  color: rgb(9, 121, 226);
+}

@@ -1,0 +1,70 @@
+.date-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1rem solid #777;
+}
+.legend-late-calendar {
+  background-color: magenta;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.calendar-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.late {
+  border: 0.2rem solid yellow;
+}
+
+.present {
+  border: 0.2rem solid green;
+}
+
+.absent {
+  border: 0.2rem solid red;
+}
+
+.class-container {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100% !important;
+}
+
+.legend-present {
+  background-color: green;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.legend-absent {
+  background-color: red;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.legend-late {
+  background-color: yellow;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}

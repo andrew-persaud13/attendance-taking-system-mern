@@ -1,0 +1,51 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+.title {
+  font-size: 30px !important;
+}
+
+.navbar {
+  padding: 10px 30px;
+}
+
+.navbar .navbar-brand {
+  margin-right: 30px;
+  font-size: 27px;
+  letter-spacing: 1px;
+  color: #48dbfb;
+  font-weight: bold;
+}
+
+.navbar .nav-item {
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #61dafb;
+}
+
+.navbar .sm-search {
+  height: 40px;
+  width: 250px;
+}
+
+.btn.btn-sm-main {
+  border-color: #61dafb;
+  color: #61dafb;
+}
+
+.btn.btn-sm-main:hover,
+.btn.btn-sm-main:focus,
+.btn.btn-sm-main:active {
+  background-color: #61dafb;
+  border-color: #61dafb;
+  color: white;
+  box-shadow: none;
+}
